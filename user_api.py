@@ -129,4 +129,4 @@ def delete_user(id_usuario):
 
 if __name__ == '__main__':
     print("Iniciando API de Usuarios en http://0.0.0.0:5001")
-    app.run(host='0.0.0.0', port=5001, debug=True)
+    app.run(host='127.17.0.2', port=5001, debug=True)
